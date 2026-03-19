@@ -6,7 +6,7 @@ import Service from './components/Service';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Apropos from './components/Apropos';
-
+import CookieConsent from './components/CookieConsent';
 // Utilisation du type React.FC (Functional Component) pour plus de clarté en TS
 const App: React.FC = () => {
   return (
@@ -26,8 +26,11 @@ const App: React.FC = () => {
           {/* Redirection si URL inconnue (404) */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
+        <CookieConsent />
       </main>
-    </>
+                        
+   
+    </>                                                             
   );
 }
 

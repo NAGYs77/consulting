@@ -18,8 +18,8 @@ const Apropos: React.FC = () => {
             <p className="text-3xl font-black">+5</p>
             <p className="font-bold uppercase text-[10px] tracking-widest opacity-90">Ans d'expérience</p>
           </div>
-        </div>
-        
+        </div>                                         
+                                    
         <div className="space-y-6">
           <h2 className="text-orange-500 text-4xl font-serif font-bold leading-tight uppercase tracking-tight">
             Notre Savoir-Faire
